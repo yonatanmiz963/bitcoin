@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/yonatanmiz963/bitcoin/static/css/main.63b79833.chunk.css",
-    "main.js": "/yonatanmiz963/bitcoin/static/js/main.d0cd3060.chunk.js",
-    "main.js.map": "/yonatanmiz963/bitcoin/static/js/main.d0cd3060.chunk.js.map",
-    "runtime-main.js": "/yonatanmiz963/bitcoin/static/js/runtime-main.1e9c3ca8.js",
-    "runtime-main.js.map": "/yonatanmiz963/bitcoin/static/js/runtime-main.1e9c3ca8.js.map",
-    "static/js/2.a0f456a2.chunk.js": "/yonatanmiz963/bitcoin/static/js/2.a0f456a2.chunk.js",
-    "static/js/2.a0f456a2.chunk.js.map": "/yonatanmiz963/bitcoin/static/js/2.a0f456a2.chunk.js.map",
-    "static/js/3.ac0e6d0a.chunk.js": "/yonatanmiz963/bitcoin/static/js/3.ac0e6d0a.chunk.js",
-    "static/js/3.ac0e6d0a.chunk.js.map": "/yonatanmiz963/bitcoin/static/js/3.ac0e6d0a.chunk.js.map",
-    "index.html": "/yonatanmiz963/bitcoin/index.html",
-    "static/css/main.63b79833.chunk.css.map": "/yonatanmiz963/bitcoin/static/css/main.63b79833.chunk.css.map",
-    "static/js/2.a0f456a2.chunk.js.LICENSE.txt": "/yonatanmiz963/bitcoin/static/js/2.a0f456a2.chunk.js.LICENSE.txt",
-    "static/media/styles.scss": "/yonatanmiz963/bitcoin/static/media/sofiapro.d36998f5.otf",
-    "static/media/contact.42200432.png": "/yonatanmiz963/bitcoin/static/media/contact.42200432.png"
+    "main.css": "/bitcoin/static/css/main.d659a242.chunk.css",
+    "main.js": "/bitcoin/static/js/main.d0cd3060.chunk.js",
+    "main.js.map": "/bitcoin/static/js/main.d0cd3060.chunk.js.map",
+    "runtime-main.js": "/bitcoin/static/js/runtime-main.cf2edaff.js",
+    "runtime-main.js.map": "/bitcoin/static/js/runtime-main.cf2edaff.js.map",
+    "static/js/2.a0f456a2.chunk.js": "/bitcoin/static/js/2.a0f456a2.chunk.js",
+    "static/js/2.a0f456a2.chunk.js.map": "/bitcoin/static/js/2.a0f456a2.chunk.js.map",
+    "static/js/3.ac0e6d0a.chunk.js": "/bitcoin/static/js/3.ac0e6d0a.chunk.js",
+    "static/js/3.ac0e6d0a.chunk.js.map": "/bitcoin/static/js/3.ac0e6d0a.chunk.js.map",
+    "index.html": "/bitcoin/index.html",
+    "static/css/main.d659a242.chunk.css.map": "/bitcoin/static/css/main.d659a242.chunk.css.map",
+    "static/js/2.a0f456a2.chunk.js.LICENSE.txt": "/bitcoin/static/js/2.a0f456a2.chunk.js.LICENSE.txt",
+    "static/media/styles.scss": "/bitcoin/static/media/sofiapro.d36998f5.otf",
+    "static/media/contact.42200432.png": "/bitcoin/static/media/contact.42200432.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1e9c3ca8.js",
+    "static/js/runtime-main.cf2edaff.js",
     "static/js/2.a0f456a2.chunk.js",
-    "static/css/main.63b79833.chunk.css",
+    "static/css/main.d659a242.chunk.css",
     "static/js/main.d0cd3060.chunk.js"
   ]
 }
