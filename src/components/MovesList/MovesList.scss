@@ -1,0 +1,23 @@
+@import "../../assets/styles/setup/variables";
+
+.moves-list-section {
+    width: 100%;
+    background-color: $clr3;
+    border: 1px solid gainsboro;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+    .moves-list {
+        list-style: none;
+        width: 100%;
+        >* {
+            width: 75%;
+        }
+
+    }
+    .title-wrapper {
+        width: 75%;
+        padding: 10px 10px;
+    }
+}

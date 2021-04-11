@@ -1,0 +1,59 @@
+@import '../../assets//styles/setup/variables';
+
+.contact-details {
+    padding: 0px 80px;
+
+    .btn-wrapper {
+        height: 100px;
+        width: 100%;
+
+        .edit-btn {
+            :first-child {
+                margin-inline-start: 7px;
+            }
+        }
+
+        >*:hover {
+            font-weight: 700;
+            cursor: pointer;
+        }
+    }
+
+    .details-wrapper {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        padding: 20px;
+
+        img {
+            width: 130px;
+            justify-self: flex-start;
+        }
+
+        >* {
+            margin-block-end: 20px;
+        }
+    }
+
+    .moves-list-wrapper {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+@media(max-width: $break-normal) {
+
+    .contact-details {
+        padding: 0px 5px;
+
+        .btn-wrapper {
+            padding: 0px 10px;
+        }
+
+    }
+}

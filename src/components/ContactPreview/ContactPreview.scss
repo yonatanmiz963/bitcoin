@@ -1,0 +1,24 @@
+@import "../../assets/styles/setup/variables";
+
+
+.contact-preview {
+  box-shadow: 0px 0px 2px 1px #8d878780;
+  width: 100%;
+  cursor: pointer;
+  margin: 15px;
+  border-radius: 60px;
+  background-color: $clr3;
+
+  img {
+    width: 60px;
+  }
+
+  h3 {
+    padding: 10px;
+  }
+}
+
+.contact-preview:hover {
+  cursor: pointer;
+  background-color: #dad8d8;
+}

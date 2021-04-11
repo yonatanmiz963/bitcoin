@@ -1,0 +1,13 @@
+@import "../../assets/styles/setup/variables";
+
+
+.statistic-page {
+    padding: 0px 80px;
+}
+
+
+@media(max-width: $break-normal) {
+    .statistic-page {
+        padding: 0px 5px;
+    }
+}

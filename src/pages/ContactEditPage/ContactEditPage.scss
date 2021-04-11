@@ -1,0 +1,85 @@
+@import '../../assets/styles/setup/variables';
+
+.contact-edit {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 320px;
+    margin: 0px auto;
+
+    &>* {
+        margin: 20px 0px;
+    }
+
+    .name-wrapper,
+    .phone-wrapper,
+    .email-wrapper {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+
+        input {
+            padding: 10px;
+            font-size: 18px;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            background-color: white;
+        }
+
+        label {
+            margin-inline-end: 5px;
+        }
+    }
+
+    button {
+        background-color: transparent;
+        justify-self: center;
+        align-self: center;
+        font-size: 16px;
+        font-family: roboto-regular, sans-serif;
+
+        :first-child {
+            margin-inline-start: 7px;
+        }
+    }
+
+    button:hover {
+        cursor: pointer;
+        font-weight: 700;
+    }
+}
+
+.btn-wrapper {
+    height: 100px;
+    width: 100%;
+    padding: 0px 80px;
+
+    >*:hover {
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .back-btn {
+        :first-child {
+            margin-inline-end: 7px;
+        }
+    }
+
+    .delete-btn {
+        font-size: 16px;
+        background-color: transparent;
+
+        :first-child {
+            margin-inline-start: 7px;
+        }
+    }
+}
+
+@media(max-width: $break-wide) {
+
+    .btn-wrapper {
+        padding: 0px 15px;
+    }
+}

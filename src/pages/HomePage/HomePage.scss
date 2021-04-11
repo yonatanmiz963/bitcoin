@@ -1,0 +1,24 @@
+@import "../../assets/styles/setup/variables";
+
+.home-page {
+    margin: 30px auto;
+    text-align: center;
+    max-width: 350px;
+    background-color: $clr3;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+
+    >* {
+        margin-block-end: 10px;
+    }
+
+    img {
+        width: 40px;
+        margin-inline-end: 10px;
+    }
+}
+
+.move-list-wrapper {
+    padding: 0px 80px;
+}

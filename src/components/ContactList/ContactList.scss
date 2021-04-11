@@ -1,0 +1,33 @@
+@import '../../assets/styles/setup/variables';
+
+.contact-list {
+    padding: 20px;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0px 80px;
+
+    .contact-preview-li {
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+
+
+@media(max-width: $break-wide) {
+    .contact-list {
+        .contact-preview-li {
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media(max-width: $break-normal) {
+    .contact-list {
+        padding: 0px 30px;
+
+        .contact-preview {
+            margin-left: 0;
+        }
+    }
+}

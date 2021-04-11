@@ -1,0 +1,13 @@
+@import "../../assets/styles/setup/variables";
+
+
+.chart {
+    background-color: $clr3;
+    margin: 20px 0px;
+    padding: 20px;
+    border-radius: 10px;
+
+    Sparklines {
+        width: 100%;
+    }
+}

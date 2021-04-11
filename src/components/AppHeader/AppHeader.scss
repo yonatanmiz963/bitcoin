@@ -1,0 +1,60 @@
+@import "../../assets/styles/setup/variables";
+
+
+.app-header {
+    background-color: $clr2;
+    padding: 0px 80px;
+    height: 50px;
+
+    .header-nav {
+        list-style-type: none;
+        height: 100%;
+
+        >* {
+            margin-inline-end: 10px;
+            height: 100%;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            >* {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                p {
+                    margin-inline-end: 7px;
+                }
+
+                .icon {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        >*:hover {
+            cursor: pointer;
+            background-color: #b58d5b;
+        }
+    }
+
+    .logo-wrapper {
+        h3 {
+            font-family: astro-space, sans-serif;
+        }
+    }
+}
+
+
+
+@media(max-width: $break-wide) {
+  .logo-wrapper {
+      display: none;
+  }
+
+  .app-header {
+      align-items: center;
+      justify-content: center;
+  }
+}

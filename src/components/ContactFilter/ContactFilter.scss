@@ -1,0 +1,41 @@
+@import "../../assets/styles/setup/variables";
+
+.filter-wrapper {
+  background-color: $clr3;
+  padding: 10px 0;
+
+  .add-btn:hover  {
+    cursor: pointer;
+    font-weight: 700;
+  }
+}
+
+
+.contact-filter {
+  
+    label:not(:first-of-type) {
+        margin-inline-start: 12px;
+      }
+
+      input,
+      select {
+        padding: 5px;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        margin-inline-start: 6px;
+        margin-inline-end: 15px;
+      }
+
+}
+
+
+
+@media(max-width: $break-normal) {
+ .filter-wrapper {
+   flex-direction: column;
+   .contact-filter {
+     margin-block-end: 10px;
+   }
+ }
+}
