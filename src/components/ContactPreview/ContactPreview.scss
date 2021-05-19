@@ -7,10 +7,12 @@
   cursor: pointer;
   margin: 15px;
   border-radius: 60px;
-  background-color: $clr3;
+  background-color: $pulse-background-color;
+  
 
   img {
     width: 60px;
+    border-radius: 60px;
   }
 
   h3 {
@@ -20,5 +22,5 @@
 
 .contact-preview:hover {
   cursor: pointer;
-  background-color: #dad8d8;
+  background-color: $pulse-selected-background-color;
 }

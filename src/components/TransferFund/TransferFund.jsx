@@ -62,7 +62,6 @@ class _TransferFund extends Component {
 }
 
 
-
 const mapStateToProps = state => {
     return {
     }

@@ -40,7 +40,8 @@
             border-radius: 5px;
             padding: 5px;
             margin-left: 10px;
-            background-color: $clr2;
+            background-color: $clr1;
+            color: $clr6;
             width: 100px;
             height: 30px;
             font-family: roboto-regular, sans-serif;
@@ -49,7 +50,7 @@
 
         button:hover {
             cursor: pointer;
-            background-color: #ccaa81;
+            opacity: 0.9;
         }
     }
 }

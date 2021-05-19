@@ -45,7 +45,7 @@ class _ContactDetailsPage extends Component {
                     <Link className="edit-btn" to={'/contact/edit/' + contact._id}>Edit <FontAwesomeIcon className="icon" icon={faUserEdit} /></Link>
                 </div>
                 <div className="details-wrapper">
-                    <img src={Contact} alt="contact" />
+                    <img src={`https://i.pravatar.cc/150?u=${contact._id}`} alt="contact" />
                     <h2 className="name">Name: {contact.name}</h2>
                     <h3 className="phone">Phone: {contact.phone}</h3>
                     <h3 className="email">Email: {contact.email}</h3>

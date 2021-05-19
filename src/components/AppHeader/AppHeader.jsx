@@ -13,7 +13,7 @@ const _AppHeader = (props) => {
     return (
        <div className="app-header flex space-between align-center" >
            <div className="logo-wrapper">
-               <h3>Mister-bitCoin</h3>
+               <h3>MisterBitCoin</h3>
            </div>
             <ul className="header-nav flex justify-center align-center">
                 <li><NavLink to="/contact" activeClassName="link active-nav"><p>Contacts</p><FontAwesomeIcon className="icon" icon={faAddressBook} /></NavLink></li>
